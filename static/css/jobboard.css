@@ -2,13 +2,21 @@ body {
     margin-top: 70px;
 }
 
+.navbar {
+    background-color: #0C4B33 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
 h1 {
     margin: 0;
     text-align: center;
 }
 
 .job {
-    background-color: lightseagreen;
+    background-color: #C9F0DD;
     margin: 10px 0;
     padding: 10px 25px;
     border-radius: 10px;
