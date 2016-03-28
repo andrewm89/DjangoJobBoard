@@ -1,0 +1,16 @@
+{% extends 'welcome.html' %}
+
+{% block jobs %}
+
+    {% for job in jobs %}
+        <div class="container job">
+            <div class="row">
+                <span class="pull-right">{{ job.postdate | date:'d/m/Y' }}</span>
+                <h3 class="pull-left">{{ job.jobtitle }}</h3>
+            </div>
+            <div class="row">
+                <p class="pull-left">{{ job.jobdescription }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
